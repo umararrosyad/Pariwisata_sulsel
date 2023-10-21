@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit Sulsel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+      #logo {
+        width: 5rem;
+      }
+
+      #jinggel {
+        height: fit-content;
+      }
+
+      @media only screen and (min-width: 768px) {
+        #bg {
+          background-image: url(https://awsimages.detik.net.id/community/media/visual/2021/06/18/rammang-rammang_169.jpeg?w=1200);
+          background-size: cover; /* Center Crop: Gambar akan memenuhi latar belakang dengan mempertahankan proporsi aspek dan memotong bagian yang berlebihan. */
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: relative; /* Diperlukan untuk menempatkan overlay di atas gambar */
+          height: 600px;
+        }
+      }
+
+      @media only screen and (max-width: 767px) {
+        #bg {
+          background-image: url(https://asset.kompas.com/crops/cqF6nqgyuoPyAul8mVDs0mRz9HA=/155x0:740x390/750x500/data/photo/2013/06/25/1656545desa-toraja780x390.jpg);
+          background-size: cover; /* Center Crop: Gambar akan memenuhi latar belakang dengan mempertahankan proporsi aspek dan memotong bagian yang berlebihan. */
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: relative; /* Diperlukan untuk menempatkan overlay di atas gambar */
+          height: 500px;
+        }
+
+        #news{
+            background-color: white;
+        }
+
+        #galeri{
+            background-color: white;
+        }
+        #text{
+            color: black;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ps-3">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="https://disbudpar.sulselprov.go.id/assets/logo-footer.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fs-5 fw-bold" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeri.html">Galeri</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+   
+    </nav>
+    <hr>
+
+    <div class="container-fluid pt-3" id="news">
+      <h1 class="text-decoration-bold m-3 mt-0 pb-3" id="text">Home / News</h1>
+      <div class="card-group">
+        <div class="card m-2">
+          <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2022/04/20/1428098/content_images/670x335/20220420062943-1-wisata-makassar-002-mutia-anggraini.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Kepulauan Selayar Tawarkan 10 Destinasi Wisata Bahari yang Memukau</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Kepulauan Selayar adalah salah satu provinsi di Indonesia yang memiliki potensi wisata bahari menakjubkan. Hamparan laut yang birubdan pasir putih mudah ditemukan di.....</p>
+
+            <a href="https://travel.tempo.co/read/1549381/kepulauan-selayar-tawarkan-10-destinasi-wisata-bahari-yang-memukau" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="https://statik.tempo.co/data/2015/11/13/id_454258/454258_620.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulawesi Selatan Jadi Provinsi dengan Usulan Desa Wisata Terbanyak ADWI 2022</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Menteri Pariwisata dan Ekonomi Kreatif Sandiaga Uno memberikan penghargaan kepada Sulawesi Selatan sebagai provinsi dengan desa wisata terbanyak pada...</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2 ">
+          <img src="https://statik.tempo.co/data/2017/12/27/id_672431/672431_720.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulsel Siapkan Objek Wisata di Sepanjang Jalur Kereta Api Makassar-Parepare</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Pembangunan jalur kereta api Makassar-Parepare terus berlanjut dan ditargetkan selesai pada Oktober 2022. Seiring dengan pengerjaan infrastruktur jalur tersebut</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group ">
+        <div class="card m-2">
+          <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2022/04/20/1428098/content_images/670x335/20220420062943-1-wisata-makassar-002-mutia-anggraini.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Kepulauan Selayar Tawarkan 10 Destinasi Wisata Bahari yang Memukau</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Kepulauan Selayar adalah salah satu provinsi di Indonesia yang memiliki potensi wisata bahari menakjubkan. Hamparan laut yang birubdan pasir putih mudah ditemukan di.....</p>
+
+            <a href="https://travel.tempo.co/read/1549381/kepulauan-selayar-tawarkan-10-destinasi-wisata-bahari-yang-memukau" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="https://statik.tempo.co/data/2015/11/13/id_454258/454258_620.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulawesi Selatan Jadi Provinsi dengan Usulan Desa Wisata Terbanyak ADWI 2022</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Menteri Pariwisata dan Ekonomi Kreatif Sandiaga Uno memberikan penghargaan kepada Sulawesi Selatan sebagai provinsi dengan desa wisata terbanyak pada...</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2 ">
+          <img src="https://statik.tempo.co/data/2017/12/27/id_672431/672431_720.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulsel Siapkan Objek Wisata di Sepanjang Jalur Kereta Api Makassar-Parepare</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Pembangunan jalur kereta api Makassar-Parepare terus berlanjut dan ditargetkan selesai pada Oktober 2022. Seiring dengan pengerjaan infrastruktur jalur tersebut</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-group pb-3">
+        <div class="card m-2">
+          <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2022/04/20/1428098/content_images/670x335/20220420062943-1-wisata-makassar-002-mutia-anggraini.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Kepulauan Selayar Tawarkan 10 Destinasi Wisata Bahari yang Memukau</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Kepulauan Selayar adalah salah satu provinsi di Indonesia yang memiliki potensi wisata bahari menakjubkan. Hamparan laut yang birubdan pasir putih mudah ditemukan di.....</p>
+
+            <a href="https://travel.tempo.co/read/1549381/kepulauan-selayar-tawarkan-10-destinasi-wisata-bahari-yang-memukau" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="https://statik.tempo.co/data/2015/11/13/id_454258/454258_620.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulawesi Selatan Jadi Provinsi dengan Usulan Desa Wisata Terbanyak ADWI 2022</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Menteri Pariwisata dan Ekonomi Kreatif Sandiaga Uno memberikan penghargaan kepada Sulawesi Selatan sebagai provinsi dengan desa wisata terbanyak pada...</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="card m-2 ">
+          <img src="https://statik.tempo.co/data/2017/12/27/id_672431/672431_720.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Sulsel Siapkan Objek Wisata di Sepanjang Jalur Kereta Api Makassar-Parepare</h5>
+            <p class="card-text fw-lighter">TEMPO.CO, Jakarta - Pembangunan jalur kereta api Makassar-Parepare terus berlanjut dan ditargetkan selesai pada Oktober 2022. Seiring dengan pengerjaan infrastruktur jalur tersebut</p>
+            <a href="https://travel.tempo.co/read/1641375/sulawesi-selatan-jadi-provinsi-dengan-usulan-desa-wisata-terbanyak-adwi-2022" class="btn btn-outline-light fw-bold" role="button" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid">
+      <h1 class="text-decoration-bold m-3 pt-3 pb-3">Galeri</h1>
+      <div class="card-group">
+        <div class="card m-2">
+          <img src="https://www.saibumi.com/editor/gambar/image/Makassar_Yang-Unik-di-Pantai-Losari_blog-wonderful-indonesia_Masjid-99-Kubah.jpg" class="card-img-top" alt="..."   width="auto" height="100%"/>
+        </div>
+        <div class="card m-2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1qR1pg2G612r4MhPaHS6LP11yrGRMEEidQ&usqp=CAU" class="card-img-top" alt="..."  width="auto" height="100%" />
+        </div>
+        <div class="card m-2">
+          <img src="https://static.republika.co.id/uploads/images/inpicture_slide/seorang-warga-melintas-di-sungai-kampung-wisata-rammang-rammang-maros-_171022214641-362.jpg" class="card-img-top" alt="..."  width="auto" height="100%"/>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card m-2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3aSqk8oS5_o99kuzHiqgypePXmcJ2Gnx7Q&usqp=CAU" class="card-img-top" alt="..."  width="auto" height="100%"/>
+        </div>
+        <div class="card m-2">
+          <img src="https://lh4.googleusercontent.com/letz1w8ddxB2lcEZDThYrKDNRy4dSGoYcM_-uITKJF2eJHboIUAtgu4K2q7K1rYWpv7iaAqQkDB_ZmPWA7saDS3vaI9pgRUrWFhc8puAaHiZZGYDG27g2eOatR_pfHorlgeb01G8wckZ" class="card-img-top" alt="..."  width="auto" height="100%"/>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-light fw-bold" style="width: 98%">View More</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-0  my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 ms-2 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img class="ps-3 pt-3" id="logo" src="https://disbudpar.sulselprov.go.id/assets/logo-footer.png" alt="" />
+            </a>
+          </div>
+  
+          <ul class="nav col-md-4 pe-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><img src="asset/img/x.png"  width="25em" alt=""></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><img src="asset/img/pngegg (1).png"  width="25em" alt="">
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#">
+                  <img src="asset/img/pngfind.com-instagram-png-white-2773517.png"  width="25em" alt="">
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+  </body>
+</html>
